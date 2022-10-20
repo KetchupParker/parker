@@ -1,0 +1,39 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <ol style="margin-left:1px">
+    <form action="result.html" method="post">
+<div>
+  <label> Name:
+  <input type="text" name="Name" placeholder="username" required>
+  </label>
+  </div>
+  <div>
+    <label> Age:
+    <input type="number" name="Age" min="1" max="100" required>
+  </label>
+  </div>
+  <div>
+    Gender:
+    <label for="male"> Male </label>
+    <input type="radio" name="Gender">
+  <label for="female"> Female </label>
+  <input type="radio" name="Gender">
+  </div>
+  <div>
+  <label>Password:
+  <input type="password" name="Password" required>
+  </label>
+  </div>
+  <div>
+  <button type="reset"> Reset</button>
+  <button type="submit"> Submit</button>
+  </div>
+   </form>
+   </ol>
+  </body>
+</html>
